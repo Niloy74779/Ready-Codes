@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+   overflow: hidden;
+   font-family: 'Orbitron', sans-serif;
+   font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    margin-top: 50px;
+    transform-style: preserve-3d;
+}
+.box::after{
+    position: absolute;
+    content: "NIKE";
+    top: 20px;
+    left: 50px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box::before{
+    position: absolute;
+    content: "SHOES";
+    bottom: 30px;
+    left: 50px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box:hover:after,
+.box:hover:before{
+    opacity: 0.08;
+}
+.box .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,100px);
+    z-index: 10;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translatey(40px);
+}
+.box:hover .name{
+    opacity: 1;
+    transform: translatey(0px);
+}
+.bu,
+.buye,
+.buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    color: rgba(17, 16, 16, 0.609);
+    background: #9bdc28;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box:hover .bu,
+.box:hover .buye,
+.box:hover .buy{
+    bottom: 30px;
+    opacity: 1;
+}
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  background: #9bdc28;
+    z-index: 10;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,50px);
+}
+.box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 300px;
+    z-index: 15;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,110px) rotate(15deg);
+}
+.circ{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%); 
+}
+.circl{
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);; 
+}
+.buye{
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+}
+.bu{
+    background-color: #fc9842;
+    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+}

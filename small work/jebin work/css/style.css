@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin:auto ;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* header css start */
+.nav{
+  position: relative;
+  z-index: 99;
+  transition: 1s;
+  padding: 20px 0;
+    
+}
+.is-sticky .nav::after{
+    content: "";
+    position: absolute;
+    background: #000000;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.logo{
+    width: 20%;
+}
+.logo h3{
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 15px;
+     text-shadow: rgba(0,0,0,0.30);
+}
+.logo span{
+    font-size: 14px;
+    color: #fda412;
+}
+.menu{
+    width: 50%;
+    text-align: right; 
+}
+.menu ul{
+    padding-top: 19px;
+    display: flex;
+    text-align: right;
+}
+.menu ul li{
+    padding: 0 20px;
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #f5f5f5;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: #fca311;
+}
+.icon{
+    width: 30%;
+    text-align: center;
+    padding-top: 15px;
+}
+.icon i{
+    font-size: 16px;
+    padding: 0 15px;
+    cursor: pointer;
+    color: #f5f5f5;
+    transition: 0.5s;
+}
+.icon i:hover{
+    color: #fca311;
+}
+.icon button{
+    height: 40px;
+    width: 120px;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0,0,0,0.6);
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    font-weight: 700;
+    position: relative;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.30);
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.icon button:hover{
+    color: #ffffff;
+}
+.icon button::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 0;
+    width: 100%;
+    background: #fca311;
+   z-index: -1;
+    transition: 0.5s;
+    overflow: hidden;
+    color: #ffffff;
+}
+.icon button:hover:after{
+    color: #ffffff;
+    height: 300%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.loging{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 170px;
+    width: 500px;
+    background: rgba(0,0,0,0.20);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   display: none;
+   z-index: 3;
+  
+}
+.login-box{
+    padding: 100px 90px;
+    width: 300px;
+}
+.login-box input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background: none;
+   position: absolute;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #fda412;
+}
+.login-box label{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.login-box input:valid~label,
+.login-box input:focus~label{
+    top: -10px;
+    color: #fda412;
+}
+.login-box input:valid,
+.login-box input:focus{
+    border-bottom: 2px solid #bd0d00;
+}
+.close-icon{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translatex(-50%);
+    height: 40px;
+    width: 70px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.close-icon i{
+    font-size: 20px;
+    color: #222222;
+    padding-top: 10px;
+}
+/* header css end */
+/* beanner part start */
+#benar{
+    height: 800px;
+    width: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.benar-items{
+    transform: translate(76%,76%);
+    height: 300px;
+    width: 400px;
+    text-align: center;
+}
+.benar-items h1{
+    font-size: 40px;
+    color: #fda412;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.benar-items button{
+    margin-top: 40px;
+    height: 50px;
+    width: 140px;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.30);
+    position: relative;
+    z-index: 2;
+    transition: 0.5;
+}
+.benar-items button:hover{
+    color: #222222;
+    border: 1px solid #bd0d00;
+}
+.benar-items button::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #bd0d00;
+  transition: 0.5s;
+  z-index: -1;
+}
+.benar-items button:hover:after{
+    width: 100%;
+}
+#benar::before{
+    content: "";
+}
+/* skrill css */
+#skrill{
+    height: 500px;
+    width: 100%;
+    background: #0c161e;
+}
+.skrill-items{
+    text-align: center;
+    padding-top: 120px;
+}
+.skrill-items h3{
+    font-size: 40px;
+    color: #7c1002;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.skrill-items p{
+    font-size: 16px;
+    color: #777;
+    padding-bottom: 40px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skrile{
+    margin: 0 30px;
+    transform: translatex(90px);
+}
+/*  */
+
+.img{
+    width: 100%;
+    background: #0f202f;
+}
+.what{
+    text-align: center;
+    padding-top: 70px;
+}
+.what h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fda412;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.30);
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+.ull{
+    width: 100%;
+    text-align: center;
+}
+.ull ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    background: #0c161e;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.imgese{
+    height: 300px;
+    width: 300px;
+    background-position: center !important;
+    background-size: cover !important;
+    margin: 5px 6px;
+}

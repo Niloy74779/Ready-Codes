@@ -1,0 +1,115 @@
+@media(min-width:992px) and(max-width:1199px){
+
+}
+@media(min-width:768px) and(max-width:991px){
+    .costomer-name {
+        bottom: -38%;
+    }
+}
+
+@media(min-width:575px) and(max-width:767px){
+
+}
+@media(max-width:991px){
+    .costomer-name {
+        bottom: -32%;
+    }
+    .contact-border::after {
+        width: 90%; 
+    }
+    .col-lg-12.col-md-6.contact-border {
+        text-align: center;
+        margin: 15px 0;
+    }
+    #menu ul li a {
+        text-align: center;
+        padding: 10px 0;
+        color: #111;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:767px){
+    .costomer-name {
+        bottom: -38%;
+    }
+    .col-lg-9.blog-item2 {
+        text-align: center;
+    }
+    #menu ul li a {
+        text-align: center;
+        padding: 10px 0;
+        color: #111;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:575px){
+    .costomer-name {
+        bottom: -53%;
+    }
+    .col-lg-4.col-sm-6.text.services-hover.my-3 {
+        width: 50%;
+    }
+    .services-icon {
+        margin: 15px;
+    }
+    #menu ul li a {
+        text-align: center;
+        padding: 10px 0;
+        color: #111;
+        font-weight: 600;
+    }
+}
+
+
+@media(max-width:320px){
+    .text {
+        text-align: center;
+    }
+    .services-icon i {
+        margin-bottom: 10px;
+    }
+    .fun-item h3 {
+        font-size: 30px;
+    }
+    .fun-item i {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .arow i, .arowr i {
+        opacity: 0;
+    }
+    .banner_content h1 {
+        font-size: 30px;
+    }
+    .group-items {
+        padding: 100px 20px;
+        text-align: center;
+    }
+    #customer .slick-track{
+        margin-bottom: 140px;
+    }
+    .col-lg-9.blog-item2 {
+        text-align: center;
+    }
+    .col-lg-12.contact-border {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .top-header {
+        background: var(--maincolor);
+    }
+    #menu ul li a {
+        text-align: center;
+        padding: 10px 0;
+        color: #111;
+        font-weight: 600;
+    }
+    .banner-img {
+        height: 50vh;
+    }
+    #banner {
+        height: 50vh;
+    }
+}

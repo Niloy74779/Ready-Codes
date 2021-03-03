@@ -1,0 +1,222 @@
+
+:root{
+    --maincolor:#F06807;
+    --heding:#fff;
+    --hedcolor:#353535;
+    --pcolor:#fff;
+    --topcolor:#eceff3;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,span{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+h5{
+    font-size: 26px;
+}
+h1{
+    font-size: 35px;  
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+/* ========================================= */
+    /* ===== top header nav css start ==== */
+/* ========================================= */
+
+body {
+  background-color: #333;
+}
+  div.boton {
+    margin:200px auto 0 auto;
+    width: 290px;
+    height: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  div.boton a {
+    color: #f38b05;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+  }
+  div.boton:hover a {
+    color: #f38b05;
+    border: none;
+    text-decoration: none;
+  }
+   div.boton span {
+     width: 100%;
+     position: absolute;
+     top:15px;
+     left:0;
+   }
+
+  div.boton svg line {
+      stroke-width: 3;
+      stroke: #fff;
+      fill: none;
+
+      -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+  }
+  div.boton:hover svg line {
+    stroke: #f38b05;
+  }
+   
+  div.boton:hover svg line.L-T {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  div.boton:hover svg line.L-B {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  div.boton:hover svg line.R-T {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  div.boton:hover svg line.R-B {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  div.boton:hover svg line.T-L {
+    -webkit-transform: translateX(270px);
+    transform: translateX(270px);
+  }
+  div.boton:hover svg line.T-R {
+    -webkit-transform: translateX(-270px);
+    transform: translateX(-270px);
+  }
+  div.boton:hover svg line.B-L {
+    -webkit-transform: translateX(270px);
+    transform: translateX(270px);
+  }
+  div.boton:hover svg line.B-R {
+    -webkit-transform: translateX(-270px);
+    transform: translateX(-270px);
+  }
+
+
+
+
+
+
+/************************************************************************/
+
+div.boton-2 {
+    margin:200px auto 0 auto;
+    width: 290px;
+    height: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:#f38b05;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  div.boton-2 a {
+    color: #f38b05;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+  }
+  div.boton-2:hover a {
+    color: #f38b05;
+    border: none;
+    text-decoration: none;
+  }
+   div.boton-2 span {
+     width: 100%;
+     position: absolute;
+     top:15px;
+     left:0;
+   }
+
+  div.boton-2 svg line {
+      stroke-width: 3;
+      stroke: #f38b05;
+      fill: none;
+
+      -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  div.boton-2:hover svg line {
+    stroke: #f38b05;
+  }
+   
+  div.boton-2:hover svg line.L-T {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  div.boton-2:hover svg line.L-B {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  div.boton-2:hover svg line.R-T {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  div.boton-2:hover svg line.R-B {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  div.boton-2:hover svg line.T-L {
+    -webkit-transform: translateX(270px);
+    transform: translateX(270px);
+  }
+  div.boton-2:hover svg line.T-R {
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  div.boton-2:hover svg line.B-L {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  div.boton-2:hover svg line.B-R {
+    -webkit-transform: translateX(-270px);
+    transform: translateX(-270px);
+  }

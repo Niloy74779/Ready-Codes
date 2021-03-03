@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(./imges/bb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transition: 2s;
+}
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 400px;
+    background: url(./imges/bb.jpg);
+    background-position: center;
+    z-index: 1;
+    transition: 2s;
+}
+.img:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+}
+.img:hover ~ .img1{
+    filter: blur(10px);
+}
